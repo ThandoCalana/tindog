@@ -1,0 +1,180 @@
+button {
+  color: #000000;
+  background-color: #efefef;
+  font-size: 11px;
+  border: 2px solid #767676;
+  border-radius: 4px;
+  padding: 5px 8px;
+  cursor: pointer
+}
+
+button:hover {
+  color: #000000;
+  background-color: #d4d4d4;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  width: 80%;
+  margin-top: 50px;
+}
+
+h2, .title-text {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: black;
+}
+
+
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.iphone6 {
+  transform: rotate(25deg);
+  padding: 0 0 0 10%;
+  position: absolute;
+  right: 25%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 1% 5% 0;
+}
+
+/* Features */
+.icon-test {
+  color: #ef8172;
+  font-size: 3rem;
+  padding-bottom: 3%;
+}
+
+.icon-test:hover {
+  color: #ff4c68;
+}
+
+#features {
+  background-color: white;
+  text-align: center;
+  color: #8f8f8f;
+  margin: 0;
+  padding: 6% 15%;
+  position: relative;
+}
+
+.test-text {
+  width: 60%;
+  margin: auto;
+}
+
+/* Testimonials */
+#testimonials, .press{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.pebbles {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+
+.brand {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1344px) {
+  #title, .title-text{
+    text-align: center;
+    margin: auto;
+  }
+
+  .iphone6 {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Footer */
+#footer {
+  background-color: #ff4c68;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.top-foot {
+  padding: 5% 25%;
+  color: white;
+}
+
+.foot-button {
+  margin: 5% 0 0;
+}
+
+.bot-foot {
+  padding: 3% 0 1%;
+  background-color: #fff;
+}
+
+.footer-text {
+  color: #9d9292;
+  font-size: 1rem;
+}
+
+.foot-icons {
+  margin: 1% 0.5%;
+}
